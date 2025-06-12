@@ -42,6 +42,9 @@ This paper presents a **comprehensive survey** of generative LLM inference acros
 This project provides the benchmarking framework, datasets, and results used in our study.  
 👉 Visit the [project homepage](https://dai.sjtu.edu.cn/project.html) for more details.
 
+The figure below illustrates the throughput (with batch size 1) and power consumption of the decode stage for an LLM (~7B) across different platforms with different optimization methods.
+![all scatter plot](all-scatter.svg)
+
 ---
 
 ## 📩 Citation
