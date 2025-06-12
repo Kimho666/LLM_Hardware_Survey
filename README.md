@@ -14,6 +14,9 @@ Large Language Models (LLMs) have demonstrated remarkable capabilities across va
 
 The rapid advancements in generative LLMs are deeply intertwined with the evolution of hardware systems. Different hardware platforms — such as **CPU**, **GPU**, **FPGA**, **ASIC**, and **PIM/NDP** — offer distinct architectural features that can significantly enhance inference performance.
 
+The figure below illustrates the throughput (with batch size 1) and power consumption of the decode stage for an LLM (~7B) across different platforms with different optimization methods.
+![all scatter plot](all-scatter.svg)
+
 ---
 
 ## 🧩 What’s in the Paper?
@@ -41,9 +44,6 @@ This paper presents a **comprehensive survey** of generative LLM inference acros
 
 This project provides the benchmarking framework, datasets, and results used in our study.  
 👉 Visit the [project homepage](https://dai.sjtu.edu.cn/project.html) for more details.
-
-The figure below illustrates the throughput (with batch size 1) and power consumption of the decode stage for an LLM (~7B) across different platforms with different optimization methods.
-![all scatter plot](all-scatter.svg)
 
 ---
 
