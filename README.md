@@ -17,9 +17,6 @@ The rapid advancements in generative LLMs are deeply intertwined with the evolut
 The figure below illustrates the throughput (with batch size 1) and power consumption of the decode stage for an LLM (~7B) across different platforms with different optimization methods.
 ![all scatter plot](all-scatter.svg)
 
-Accuracy Loss vs Throughput vs Power Consumption
-<img width="1900" height="1780" alt="plot" src="https://github.com/user-attachments/assets/45770653-0d5a-4989-b07d-f2265b6520cc" />
-
 ---
 
 ## 🧩 What’s in the Paper?
